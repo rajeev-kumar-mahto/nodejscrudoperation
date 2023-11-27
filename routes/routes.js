@@ -106,7 +106,7 @@ router.post('/delete/:id',(req,res)=>{
     //         type: "info",
     //         message:"User Delete successfully",
     //     };
-        res.redirect('/');
+        res.redirect('/home');
     // });
 });
 
